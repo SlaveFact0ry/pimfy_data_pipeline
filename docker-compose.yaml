@@ -327,7 +327,7 @@ volumes:
 networks:
   network_custom:
     driver: bridge
-    ipan:
+    ipam:
       driver: default
       config:
         - subnet: 172.28.0.0/16
