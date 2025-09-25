@@ -300,7 +300,7 @@ services:
   #       ipv4_address: 172.28.0.3
 volumes:
   postgres-db-volume:
-  postgres-custom-db-volume:
+  # postgres-custom-db-volume:
 # networks:
 #   network_custom:
 #     driver: bridge
