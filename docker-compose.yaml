@@ -310,7 +310,7 @@ services:
   postgress_custom:
     image: postgres:13
     environment:
-      PSOTGRES_USER: yechan
+      POSTGRES_USER: yechan
       POSTGRES_PASSWORD: yechan
       POSTGRES_DB: yechan
       TZ: Asia/Seoul
