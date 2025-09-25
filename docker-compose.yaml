@@ -332,7 +332,6 @@ services:
 
   nginx:
     image: nginx:latest
-    constiner_name: nginx-proxy
     restart: always
     ports:
       - 80:80
