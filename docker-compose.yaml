@@ -314,7 +314,7 @@ services:
       POSTGRES_PASSWORD: yechan
       POSTGRES_DB: yechan
       TZ: Asia/Seoul
-    Volumes:
+    volumes:
       - postgres-custom-db-volume:/var/lib/postgresql/data
     ports:
       - 5432:5432
