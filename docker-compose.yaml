@@ -327,8 +327,8 @@ services:
     networks:
       network_custom:
         ipv4_address: 172.28.0.2
-      ports:
-        - 3838:3838
+    ports:
+      - 3838:3838
 volumes:
   postgres-db-volume:
   postgres-custom-db-volume:
