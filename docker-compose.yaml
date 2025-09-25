@@ -139,6 +139,9 @@ services:
     networks:
       network_custom:
         ipv4_address: 172.28.0.6
+    environment:
+      <<: *airflow-common-env
+      AIRFLOW__WEBSERVER__BASE_URL: http://<접속_IP_주소>/airflow
 
   airflow-scheduler:
     <<: *airflow-common
