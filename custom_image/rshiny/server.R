@@ -6,8 +6,8 @@ server <- function(input, output){
                   dbname = "hjkim",
                   host = "172.28.0.3",
                   port = "5432",
-                  user = "hjkim",
-                  password = "hjkim"
+                  user = "yechan",
+                  password = "yechan"
 		)
         	# Get the data
         	corona <- dbGetQuery(conn, glue("SELECT 
