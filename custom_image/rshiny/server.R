@@ -4,7 +4,7 @@ server <- function(input, output){
         	conn <- dbConnect(
                   RPostgres::Postgres(),
                   dbname = "yechan",
-                  host = "172.28.0.4",
+                  host = "172.28.0.3",
                   port = "5432",
                   user = "yechan",
                   password = "yechan"
