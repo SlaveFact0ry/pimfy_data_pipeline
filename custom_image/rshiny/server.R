@@ -3,8 +3,8 @@ server <- function(input, output){
         	# Connect to the DB
         	conn <- dbConnect(
                   RPostgres::Postgres(),
-                  dbname = "hjkim",
-                  host = "172.28.0.3",
+                  dbname = "yechan",
+                  host = "172.28.0.4",
                   port = "5432",
                   user = "yechan",
                   password = "yechan"
