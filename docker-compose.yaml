@@ -322,13 +322,13 @@ services:
       network_custom:
         ipv4_address: 172.28.0.3
 
-  rshiny_custom:
-    image: rshiny-custom
-    networks:
-      network_custom:
-        ipv4_address: 172.28.0.2
-    # ports:
-    #   - 3838:3838
+  # rshiny_custom:
+  #   image: rshiny-custom
+  #   networks:
+  #     network_custom:
+  #       ipv4_address: 172.28.0.2
+  # ports:
+  #   - 3838:3838
 
   nginx:
     image: nginx:latest
